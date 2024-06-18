@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>チャット画面</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="message" class="mb-4 text-center"></div>
+    
+      <div class="text-center">
+        <div class="mb-4">チャットのページ</div>
+        <button id="logout-button" class="btn btn-primary btn-wide">ログアウト</button>
+      </div>
+    
+    <div class="input 1">
+    <p id="userName"></p>
+  </div>
+  <div class="input 2">
+    <textarea id="text" placeholder="ひとこと" rows="5" cols="30"></textarea>
+  </div>
+  <div class="input 3">
+    <button id="send" type="button">送信</button>
+  </div>
+    <div id="output"></div>
+</div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/scriptchat.js"></script>
+  </body>
+</html>

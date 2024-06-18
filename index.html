@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <img src="images/janken_banner.png" class="banner" alt="">
+    <div class="box">
+      <div class="box-item">
+        <span class="box-title">あなたの手：</span>
+        <button id="btn1" class="form-control" data-hand="1"><img src="images/janken_gu.png" alt="グー"></button>
+        <button id="btn2" class="form-control" data-hand="2"><img src="images/janken_choki.png" alt="チョキ"></button>
+        <button id="btn3" class="form-control" data-hand="3"><img src="images/janken_pa.png" alt="パー"></button>
+      </div>
+      <div class="box-item">
+        <span class="box-title">コンピューターの手：</span>
+        <p id="com"></p>
+      </div>
+    </div>
+    <div class="text-center result">
+      結果は・・・・
+      <p id="result"></p>
+      <button id="resetButton">もう一度チャレンジ</button>
+    </div>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

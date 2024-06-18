@@ -1,0 +1,92 @@
+
+.wrapper {
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 40px;
+}
+.heading {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.form-field {
+  margin-bottom: 16px;
+}
+.button-field {
+  margin-top: 40px;
+}
+.text-center {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.input {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#output {
+  overflow: auto;
+  height: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#send {
+    background-color: cadetblue;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+.message-wrapper {
+    background-color: lightpink;
+    padding: 15px;
+    border-radius: 10px; /* 角丸を調整 */
+    margin-bottom: 10px; 
+    max-width: 50%;
+    flex-direction: column;
+  }
+
+.chat.right {
+  display: flex;
+  justify-content: right;
+}
+
+.chat.left {
+  display: flex;
+  justify-content: left;
+}
+
+.message {
+  text-align: left;
+}
+
+.delete {
+    background-color: cadetblue;
+    color:#ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+#logout-button {
+  background-color: blue;
+  color:#ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 80px;
+  cursor: pointer;
+}
+
+#text {
+  border: 2px solid #ccc;
+}
